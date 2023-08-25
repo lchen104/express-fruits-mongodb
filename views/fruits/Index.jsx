@@ -15,8 +15,7 @@ function Index ({fruits}) {
                 <p key={i}>
                   <li key={i}>
                       The <a href={`/fruits/${fruit.id}`}>{fruit.name}</a> is {fruit.color} <br/>
-                      and
-                      {fruit.readyToEat ? `It is ready to be eaten. Yummy.` : `It is not ready to be eaten!`}
+                      and {fruit.readyToEat ? `it is ready to be eaten. Yummy.` : `it is not ready to be eaten!`}
                       <br />
                       {fruit.isItGood ? `Yes, I Like ${fruit.name}.` : `No, I don't like ${fruit.name}`}
                       <br />
