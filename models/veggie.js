@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const veggieSchema = new mongoose.Schema({
     name:  { type: String, required: true },
     color:  { type: String, required: true },
-    readyToEat: Boolean
+    readyToEat: Boolean,
+    isItGood: Boolean
 });
 
 const Veggie = mongoose.model('Veggie', veggieSchema);

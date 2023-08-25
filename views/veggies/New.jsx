@@ -9,6 +9,7 @@ const New = () => {
             Name: <input type="text" name="name" /><br/>
             Color: <input type="text" name="color" /><br/>
             Is Ready To Eat: <input type="checkbox" name="readyToEat" /><br/>
+            Is It Good: <input type="checkbox" name="isItGood" /><br/>
             <input type="submit" name="" value="Create Veggie"/>
         </form>
     </div>
